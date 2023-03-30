@@ -1,0 +1,136 @@
+{
+  "name": "Jewel Of Nile",
+  "mathModel": "RTP_96",
+  "rtpInfo" : {
+    "mainGame" : "96.00%"
+  },
+  "betSettings": {
+    "baseBet": 20,
+    "minLines": 20,
+    "maxLines": 20
+  },
+  "payLineOffsets": [
+    [1, 1, 1, 1, 1],
+    [0, 0, 0, 0, 0],
+    [2, 2, 2, 2, 2],
+    [0, 1, 2, 1, 0],
+    [2, 1, 0, 1, 2],
+    [0, 0, 1, 2, 2],
+    [2, 2, 1, 0, 0],
+    [1, 0, 0, 0, 1],
+    [1, 2, 2, 2, 1],
+    [0, 1, 0, 1, 0],
+    [2, 1, 2, 1, 2],
+    [1, 0, 1, 2, 1],
+    [1, 2, 1, 0, 1],
+    [0, 2, 0, 2, 0],
+    [2, 0, 2, 0, 2],
+    [2, 1, 1, 1, 0],
+    [0, 1, 1, 1, 2],
+    [0, 2, 2, 2, 0],
+    [2, 0, 0, 0, 2],
+    [1, 0, 2, 0, 1]
+  ],
+  "payTable": {
+    "QUEEN":   [0,  0,  5,  20,   100],
+    "KING":    [0,  0,  5,  20,   100],
+    "ACE":     [0,  0,  5,  20,   100],
+    "SWORD":   [0,  0, 10,  50,   200],
+    "AXE":     [0,  0, 10,  50,   200],
+    "FLAIL":   [0,  0, 20, 100,   400],
+    "ANKX":    [0,  0, 20, 100,   400],
+    "SCARAB":  [0,  0, 50, 150,   500],
+    "WOMAN":   [0, 10, 50, 200,  1000],
+    "WILD":    [0, 10, 50, 200,  1000],
+    "SCATTER": [0,  0,  0,   0,     0]
+  },
+  "payTableMultipliers": {
+    "QUEEN":   [0,  0,  5,  20,   100],
+    "KING":    [0,  0,  5,  20,   100],
+    "ACE":     [0,  0,  5,  20,   100],
+    "SWORD":   [0,  0, 10,  50,   200],
+    "AXE":     [0,  0, 10,  50,   200],
+    "FLAIL":   [0,  0, 20, 100,   400],
+    "ANKX":    [0,  0, 20, 100,   400],
+    "SCARAB":  [0,  0, 50, 150,   500],
+    "WOMAN":   [0, 10, 50, 200,  1000],
+    "WILD":    [0, 10, 50, 200,  1000],
+    "SCATTER": [0,  0,  0,   0,     0]
+  },
+  "rows": 3,
+  "columns": 5,
+  "reelsConfiguration": {
+    "reelLayouts": [
+      {
+        "index": 0,
+        "baseGame": "BASE",
+        "weight": 0,
+        "reels": [
+          { "symbols":["ACE","SWORD","KING","ANKX","ACE","FLAIL","QUEEN","AXE","ACE","SWORD","KING","ANKX","ACE","SWORD","KING","AXE","ACE","SCARAB","SWORD","WOMAN","WOMAN","WOMAN","WOMAN","AXE","WILD","ANKX","SCARAB","KING","SWORD","ACE","ANKX","QUEEN","FLAIL","ACE","AXE","KING","SWORD","ACE","AXE","QUEEN","FLAIL"]
+          },
+          { "symbols":["KING","ANKX","QUEEN","SWORD","KING","SCARAB","ACE","AXE","KING","FLAIL","QUEEN","SWORD","KING","ANKX","QUEEN","SCATTER","KING","SCARAB","AXE","WOMAN","WOMAN","WOMAN","WOMAN","SWORD","WILD","SCARAB","FLAIL","QUEEN","SCATTER","KING","SWORD","ACE","ANKX","KING","AXE","QUEEN","FLAIL","KING","SCATTER","ACE","SWORD"]
+          },
+          { "symbols":["QUEEN","SWORD","ACE","FLAIL","QUEEN","AXE","KING","SCATTER","QUEEN","SCARAB","ACE","AXE","QUEEN","FLAIL","ACE","AXE","QUEEN","SWORD","ANKX","WOMAN","WOMAN","WOMAN","WOMAN","FLAIL","WILD","AXE","ANKX","ACE","SCATTER","QUEEN","SWORD","KING","FLAIL","QUEEN","AXE","ACE","SCARAB","QUEEN","AXE","KING","ANKX"]
+          },
+          { "symbols":["SWORD","KING","AXE","ACE","QUEEN","SCARAB","ACE","SWORD","KING","FLAIL","SCATTER","QUEEN","AXE","ANKX","ACE","SCATTER","SWORD","KING","FLAIL","WOMAN","WOMAN","WOMAN","WOMAN","ANKX","WILD","FLAIL","SCARAB","QUEEN","AXE","ACE","ANKX","KING","SWORD","QUEEN","AXE","ACE","SCARAB","KING","FLAIL","QUEEN","ANKX"]
+          },
+          { "symbols":["SWORD","ACE","AXE","QUEEN","SCARAB","ANKX","KING","FLAIL","SWORD","QUEEN","ANKX","ACE","SCARAB","FLAIL","KING","SWORD","ANKX","ACE","AXE","WOMAN","WOMAN","WOMAN","WOMAN","SCARAB","WILD","AXE","KING","FLAIL","QUEEN"]
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "baseGame": "FREE_SPINS",
+        "weight": 0,
+        "reels": [
+          { "symbols":["SCARAB","QUEEN","SWORD","KING","FLAIL","ACE","AXE","QUEEN","SWORD","ACE","SCARAB","KING","AXE","ACE","SWORD","WOMAN","WOMAN","WOMAN","WOMAN","WOMAN","WOMAN","WOMAN","ACE","WILD","WILD","WILD","WILD","WILD","WILD","WILD","AXE","QUEEN","SWORD","ACE","SCARAB","QUEEN","AXE","ACE","FLAIL","KING","SWORD","QUEEN","ANKX","ACE","AXE","QUEEN","FLAIL","ACE"]
+          },
+          { "symbols":["AXE","ACE","FLAIL","KING","ANKX","ACE","SCARAB","KING","AXE","ACE","FLAIL","KING","ANKX","QUEEN","AXE","WOMAN","WOMAN","WOMAN","WOMAN","WOMAN","WOMAN","WOMAN","KING","WILD","WILD","WILD","WILD","WILD","WILD","WILD","SWORD","KING","AXE","ACE","SCATTER","KING","FLAIL","ACE","SCATTER","QUEEN","ANKX","KING","SCATTER","QUEEN","SCARAB","ACE","SWORD","KING"]
+          },
+          { "symbols":["SWORD","QUEEN","FLAIL","KING","SCARAB","QUEEN","SWORD","ACE","AXE","KING","SCARAB","QUEEN","SWORD","KING","ANKX","WOMAN","WOMAN","WOMAN","WOMAN","WOMAN","WOMAN","WOMAN","QUEEN","WILD","WILD","WILD","WILD","WILD","WILD","WILD","ANKX","ACE","SCARAB","QUEEN","AXE","KING","SCATTER","QUEEN","SWORD","ACE","SCATTER","QUEEN","ANKX","KING","SCATTER","QUEEN","SCARAB","KING"]
+          },
+          { "symbols":["KING","SCATTER","QUEEN","SCARAB","ACE","SCATTER","KING","SCARAB","QUEEN","SCATTER","ACE","ANKX","KING","SWORD","FLAIL","WOMAN","WOMAN","WOMAN","WOMAN","WOMAN","WOMAN","WOMAN","ANKX","WILD","WILD","WILD","WILD","WILD","WILD","WILD","FLAIL","AXE","QUEEN","SWORD","ACE","AXE","KING","SWORD","QUEEN","ANKX","ACE","AXE","KING","SWORD","QUEEN","FLAIL","ACE","AXE"]
+          },
+          { "symbols":["ACE","FLAIL","QUEEN","ANKX","KING","SWORD","ACE","AXE","QUEEN","FLAIL","KING","SCARAB","ACE","ANKX","SWORD","WOMAN","WOMAN","WOMAN","WOMAN","WOMAN","WOMAN","WOMAN","FLAIL","WILD","WILD","WILD","WILD","WILD","WILD","WILD","AXE","ANKX","QUEEN","SCARAB","KING","SWORD","ACE","ANKX","QUEEN","AXE","KING","FLAIL","ACE","SCARAB","QUEEN","SWORD","KING","AXE"]
+          }
+        ]
+      }
+    ]
+  },
+  "bonusConfiguration": {
+    "scatterSymbol": "SCATTER",
+    "scatterPayMultipliers": [0, 0, 0, 0, 0],
+    "freeGameConfiguration": {
+      "triggerCount": {
+        "3": 12
+      },
+      "awardGameBonus": "FREE_SPINS",
+      "multiplier": 1
+    }
+  },
+
+  "randomConfiguration": {
+    "BASE" : {
+      "numbers" : 6,
+      "randomList": {
+        "reelLayout": 1,
+        "reel0": 41,
+        "reel1": 41,
+        "reel2": 41,
+        "reel3": 41,
+        "reel4": 29
+      }
+    },
+    "FREE_SPINS" : {
+      "numbers" : 6,
+      "randomList": {
+        "reelLayout": 1,
+        "reel0": 48,
+        "reel1": 48,
+        "reel2": 48,
+        "reel3": 48,
+        "reel4": 48
+      }
+    }
+  }
+}
