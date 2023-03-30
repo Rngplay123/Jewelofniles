@@ -5,7 +5,7 @@ pipeline {
 
      stage('Git Checkout'){
          steps{
-               git branch: 'main', url: 'gh repo clone Rngplay123/Jewelofniles'
+               git branch: 'main', url: 'https://github.com/Rngplay123/Jewelofniles.git'
          
          }
      }
